@@ -6,7 +6,7 @@ import Projects from "./Projects";
 function Container(){
     return <main>
         <div className = "container">
-            The body componets will go here
+            
             <Home />
             <About />
             <Projects />

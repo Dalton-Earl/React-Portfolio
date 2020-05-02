@@ -1,4 +1,5 @@
 import React from 'react'
+import image1 from '../pictures/IMG_20200301_203521.jpg'
 
 export default function ProjectCard() {
     return (
@@ -6,7 +7,7 @@ export default function ProjectCard() {
     <div className="col s12 m7">
       <div className="card">
         <div className="card-image">
-          <img src="images/sample-1.jpg" alt="sample">
+          <img src={image1} alt="sample">
               </img>
           <span className="card-title">Card Title</span>
         </div>
