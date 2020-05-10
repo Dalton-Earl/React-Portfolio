@@ -8,9 +8,11 @@ function Container(){
         <div className = "container">
             
             <Home />
+            <div className = "container">
             <About />
             <Projects />
             <Contact />
+            </div>
         </div>
 
         

@@ -2,7 +2,8 @@ import React from "react";
 import Scrollspy from 'react-scrollspy';
 
 function Header(){
-    return <nav>
+    return<div className ="navbar-fixed"> 
+    <nav >
     <div className="nav-wrapper">
       <a href="mailto:Dalton.earl@outlook.com" className="brand-logo right">Dalton Earl</a>
       <ul id="nav-mobile" className="left hide-on-med-and-down">
@@ -15,5 +16,6 @@ function Header(){
       </ul>
     </div>
   </nav>
+  </div>
 }
 export default Header;

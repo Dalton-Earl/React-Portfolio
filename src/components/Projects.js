@@ -1,18 +1,18 @@
 import React from 'react'
-import ProjectCard from "./ProjectCard"
+import ProjectCardBurger from "./ProjectCardBurger"
+import ProjectCardOne from "./ProjectCardOne"
+import ProjectCardReact from "./ProjectCardReact"
 
 export default function Projects() {
     return (
         <section id = "Projects">
-            \\add a github api call to get my projects
+            
              
             
-             <ProjectCard />
-             <ProjectCard />
-             <ProjectCard />
-             <ProjectCard />
-             <ProjectCard />
-             <ProjectCard />
+             <ProjectCardBurger />
+             <ProjectCardOne />
+             <ProjectCardReact />
+            
 
         </section>
     )
