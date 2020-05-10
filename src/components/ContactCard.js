@@ -15,7 +15,9 @@ export default function ContactCard() {
   <div className="card-reveal">
     <span className="card-title grey-text text-darken-4">Contact me!<i className="material-icons right">close</i></span>
     <p>I am currently looking for any oppourtunity to create. reach out via email at Dalton.Earl@outlook.com or click my name in the upper right corner</p>
+    <a href="https://github.com/Dalton-Earl">My github</a><br></br><a href="https://www.linkedin.com/in/dalton-earl-700236194/">linkedin</a>
   </div>
+  
 </div>
             
         
